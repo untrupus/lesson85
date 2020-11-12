@@ -3,6 +3,7 @@ import {BrowserRouter, Route, Switch} from "react-router-dom";
 import Header from "./components/Header/Header";
 import Artists from "./containers/Artists/Artists";
 import Artist from "./containers/Artist/Artist";
+import Album from "./containers/Album/Album";
 import './App.css';
 
 function App() {
@@ -13,8 +14,8 @@ function App() {
           <Switch>
             <Route path="/" exact component={Artists}/>
             <Route path="/artist/:id" exact component={Artist}/>
-            {/*<Route path="/news/:id" component={NewsPage}/>*/}
-            {/*<Route render={() => <h1>404</h1>}/>*/}
+            <Route path="/album/:id" component={Album}/>
+            <Route render={() => <h1>404</h1>}/>
           </Switch>
       </BrowserRouter>
     </div>

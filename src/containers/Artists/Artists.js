@@ -16,7 +16,7 @@ const Artists = () => {
         return (
             <SingleArtist
                 key={artist._id}
-                src={'http://localhost:8000/public/uploads/' + artist.image}
+                src={'http://localhost:8000/uploads/' + artist.image}
                 name={artist.name}
                 id={artist._id}
             />

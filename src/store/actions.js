@@ -60,7 +60,6 @@ export const fetchTracks = (id) => {
     return async dispatch => {
         try {
             const response = await axiosAPI.get("tracks?album=" + id);
-            console.log(response.data);
             dispatch(fetchTracksSuccess(response.data));
         } catch (e) {
             dispatch(fetchTracksError(e));

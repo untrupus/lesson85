@@ -6,6 +6,7 @@ import './Artist.css';
 
 const Artist = props => {
     const albums = useSelector(state => state.albums);
+    const artist = useSelector(state => state.artist);
     const dispatch = useDispatch();
 
     useEffect(() => {
@@ -18,14 +19,17 @@ const Artist = props => {
                 key={album._id}
                 name={album.name}
                 year={album.year}
-                src='https://upload.wikimedia.org/wikipedia/en/b/b2/Metallica_-_Master_of_Puppets_cover.jpg'
+                id={album._id}
+                src={'http://localhost:8000/uploads/' + album.image}
             />
         )
     });
 
+    console.log(albums);
     return (
         <div className="artist">
             <div className="container">
+                <h2>{artist}</h2>
                 <div className="artistInner">
                     {albumList}
                 </div>

@@ -1,0 +1,25 @@
+.album {
+    background: #000;
+    padding-top: 20px;
+    height: 100vh;
+}
+
+.album p {
+    color: white;
+    font-weight: bold;
+}
+
+.album .duration {
+    color: darkgrey;
+}
+
+.album .number {
+    color: darkred;
+    font-weight: bold;
+}
+
+.album h4 {
+    font-size: 30px;
+    color: darkred;
+}
+

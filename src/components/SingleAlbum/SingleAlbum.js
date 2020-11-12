@@ -7,7 +7,7 @@ const SingleAlbum = props => {
         <Link className="singleAlbum" to={'/album/' + props.id}>
             <img src={props.src} className="albumImg" alt="album"/>
             <p>{props.name}</p>
-            <p>{props.year}</p>
+            <p>{props.year} ({props.count})</p>
         </Link>
     );
 };

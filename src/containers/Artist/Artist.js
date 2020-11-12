@@ -20,6 +20,7 @@ const Artist = props => {
                 name={album.name}
                 year={album.year}
                 id={album._id}
+                count={album.count}
                 src={'http://localhost:8000/uploads/' + album.image}
             />
         )

@@ -1,0 +1,14 @@
+.singleAlbum {
+    width: 30%;
+    text-align: center;
+}
+
+.albumImg {
+    width: 250px;
+    height: 250px;
+}
+
+.singleAlbum p {
+    font-weight: bold;
+    color: white;
+}

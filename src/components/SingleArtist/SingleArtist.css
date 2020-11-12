@@ -1,0 +1,16 @@
+.artistImg {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.artistName {
+    color: white;
+    display: block;
+}
+
+.singleArtist {
+    text-align: center;
+    width: 30%;
+    margin-bottom: 20px;
+}

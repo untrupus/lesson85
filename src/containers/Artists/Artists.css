@@ -1,0 +1,11 @@
+.main {
+    background: #000;
+    height: 100vh;
+    padding-top: 20px;
+}
+
+.mainInner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

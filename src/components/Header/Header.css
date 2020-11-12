@@ -1,0 +1,13 @@
+.header {
+    background: black;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 10px solid #9A195D;
+}
+
+.header .logo {
+    color: darkred;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}

@@ -1,0 +1,11 @@
+.artistInner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    height: 100vh;
+}
+
+.artist {
+    background: #000;
+}
